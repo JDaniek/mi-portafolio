@@ -6,6 +6,7 @@
 - HTML 5
 - CSS (flexbox-grid) 
 - Metod BEM
+- Mobile first
 
 ## Requerimeintos:
 
@@ -15,6 +16,7 @@
 * Texto Principal: #FAFAFA - Blanco de alta legibilidad
 * Texto Secundario: #B5B5B9 - Gris medio para jerarquía
 * Acentos/Cards: #3A3A40 - Gris oscuro para contraste sutil
+* Degradado balco/gris
 
 ### Fuente:
 "Poppins"
