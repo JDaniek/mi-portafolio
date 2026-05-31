@@ -19,4 +19,9 @@
 * Degradado balco/gris
 
 ### Fuente:
-"Poppins"
+Poppins
+
+## Figma File:
+
+Inspiracion:
+https://www.figma.com/design/djB3Fm6xPHybRAtoajiKAk/Portafolio-Personal?node-id=0-1&t=r57eZXgf2QP3BOvr-1
