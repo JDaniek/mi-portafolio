@@ -27,6 +27,7 @@ a {
 .nav {
     width: 100%;
     padding: 20px;
+    border-bottom: 1px solid var(--color-contrast);
 }
 
 .nav__container {
