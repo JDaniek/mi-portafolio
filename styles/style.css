@@ -16,6 +16,12 @@ body {
     background: var(--color-primary);
 }
 
+button {
+    outline: none;
+    background: none;
+    border: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -55,4 +61,14 @@ a {
 
 .nav__list {
     display: none;
+}
+
+.nav__icon-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav__icon-img {
+    height: 20px;
 }
