@@ -72,3 +72,42 @@ a {
 .nav__icon-img {
     height: 20px;
 }
+
+.header__container {
+    width: 100%;
+    padding: 20px;
+}
+
+.header__presentation {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.presentation__greting {
+    color: var(--color-secondary-text);
+}
+
+.presentation__title {
+    margin:10px 0;
+    background-image: linear-gradient(to right,#FAFAFA, #A1A1A1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.header__container-photo{
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.header__img{
+    width: 100%;
+    height: 120%;
+    object-fit: cover;
+}
