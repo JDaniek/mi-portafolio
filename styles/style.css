@@ -115,3 +115,20 @@ p{
     height: 120%;
     object-fit: cover;
 }
+
+.header__text{
+    text-align: center;
+}
+
+.header__title{
+    font-weight: bolder;
+    font-size: 1rem;
+    color: var(--color-secondary-text);
+    margin: 10px 0;
+}
+
+.header__description{
+    margin: 10px 0;
+    font-weight: normal;
+    color: var(--color-secondary-text);
+}
