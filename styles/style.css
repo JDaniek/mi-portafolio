@@ -1,5 +1,6 @@
 :root {
     --color-primary: #1F1F23;
+    --color-secondary: #262626;
     --color-text: #FAFAFA;
     --color-secondary-text: #B5B5B9;
     --color-contrast: #3A3A40;
@@ -14,7 +15,6 @@
 body {
     font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: var(--color-primary);
-    padding: 15px 20px;
 }
 
 button {
@@ -83,6 +83,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 15px 20px;
 }
 
 .header__presentation {
@@ -178,4 +179,34 @@ p {
     justify-content: center;
     gap: 40px;
     width: 100%;
+}
+
+.about {
+    width: 100%;
+    background-color: var(--color-secondary);
+}
+
+.about__container {
+    padding: 20px;
+}
+
+.about__title-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.about__title {
+    color: var(--color-text);
+
+}
+
+.about__text-decoration {
+    height: 3px;
+    width: 25%;
+    background-color: var(--color-text);
 }
