@@ -8,7 +8,7 @@
 - Metod BEM
 - Mobile first
 
-## Requerimeintos:
+## Requerimientos:
 
 ### Colores:
 
