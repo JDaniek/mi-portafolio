@@ -219,3 +219,7 @@ p {
 .about__text{
     margin: 25px 0;
 }
+
+.about__data{
+    width: 100%;
+}
