@@ -210,3 +210,12 @@ p {
     width: 25%;
     background-color: var(--color-text);
 }
+
+.about__description{
+    text-align: start;
+    color: var(--color-secondary-text);
+}
+
+.about__text{
+    margin: 25px 0;
+}
