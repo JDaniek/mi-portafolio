@@ -14,6 +14,7 @@
 body {
     font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: var(--color-primary);
+    padding: 15px 20px;
 }
 
 button {
@@ -78,7 +79,6 @@ p {
 
 .header__container {
     width: 100%;
-    padding: 15px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -171,11 +171,11 @@ p {
     width: auto;
 }
 
-.header__links-container{
+.header__links-container {
     margin: 10px 0;
     display: flex;
     flex-direction: row;
-    justify-content:center ;
+    justify-content: center;
     gap: 40px;
     width: 100%;
 }
