@@ -144,7 +144,7 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 25px;
     width: 100%;
 }
 
