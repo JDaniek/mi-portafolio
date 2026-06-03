@@ -236,9 +236,19 @@ p {
 
 .about__formation{
     width: 100%;
-    padding: 10px;
+    padding: 5px;
 }
 
 .about__formation-container{
     color: var(--color-secondary-text);
+}
+
+.about__formation-text{
+    margin: 20px 0;
+    font-weight: bolder;
+}
+
+.about__formation-date{
+    color: var(--color-text);
+    margin:0 8px;
 }
