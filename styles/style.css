@@ -223,3 +223,22 @@ p {
 .about__data{
     width: 100%;
 }
+
+.about__data-education{
+    padding: 5px;
+    text-align: center;
+}
+
+.about__education-title{
+    margin: 15px 0;
+    color: var(--color-text);
+}
+
+.about__formation{
+    width: 100%;
+    padding: 10px;
+}
+
+.about__formation-container{
+    color: var(--color-secondary-text);
+}
