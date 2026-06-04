@@ -290,3 +290,40 @@ p {
 .about__personal-info-value{
     margin-bottom: 15px;
 }
+
+.about__cards-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; 
+    align-items: stretch;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card__contain{
+    padding: 15px;
+    border: 1px solid var(--color-contrast);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    background-color: var(--color-primary);
+}
+
+.card__icon{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.card__title{
+    color: var(--color-text);
+    margin: 5px 0;
+}
+
+.card__text{
+    color: var(--color-secondary-text);
+    margin: 10px 0;
+}
