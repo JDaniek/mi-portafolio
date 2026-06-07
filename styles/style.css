@@ -356,6 +356,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .card__tags-container{
@@ -365,6 +366,7 @@ p {
     align-items: center;
     justify-content: center;
     color: var(--color-text);
+    text-align: center;
 }
 
 .card__tag{
@@ -380,4 +382,5 @@ p {
     width: 100px;
     height: 100px;
     margin: 8px 0;
+    text-align: center;
 }
