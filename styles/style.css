@@ -69,7 +69,7 @@ p {
     margin: 0 10px;
 }
 
-.nav__menu--active{
+.nav__menu--active {
     text-decoration: none;
 }
 
@@ -96,7 +96,7 @@ p {
     align-items: center;
 }
 
-.nav__icon-button{
+.nav__icon-button {
     position: absolute;
     z-index: 1000;
 }
@@ -409,17 +409,17 @@ p {
     text-align: center;
 }
 
-.proyects{
+.proyects {
     background-color: var(--color-secondary);
     padding: 20px;
 }
 
-.proyect__container{
+.proyect__container {
     text-align: center;
     color: var(--color-text);
 }
 
-.proyect__container--title{
+.proyect__container--title {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -429,11 +429,66 @@ p {
     margin: 20px 0;
 }
 
-.proyects__cards{
+.proyects__cards {
     margin: 20px 0;
     text-align: start;
 }
 
-.proyect__card{
+.proyect__card {
     margin: 25px 0;
+}
+
+.contact {
+    padding: 0 20px;
+}
+
+.contact__container {
+    margin: 25px 0;
+    color: var(--color-text);
+}
+
+.contact__container--title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 20px 0;
+    color: var(--color-text);
+}
+
+.contact__text {
+    color: var(--color-text);
+    margin: 10px;
+}
+
+.contact__subtitle {
+    margin: 20px 0;
+}
+
+.contact__info {
+    margin: 20px 0;
+}
+
+.contact__badges {
+    display: grid;
+    grid-template-columns: 50px auto;
+    grid-template-rows: 50px;
+    align-items: center;
+    gap: 20px;
+}
+
+.badge__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.badge__image {
+    background-color: var(--color-contrast);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
 }
