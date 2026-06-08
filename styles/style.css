@@ -50,6 +50,7 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .nav__title {
@@ -68,13 +69,36 @@ p {
     margin: 0 10px;
 }
 
+.nav__menu--active{
+    text-decoration: none;
+}
+
 .nav__list {
+    padding: 30px;
+    height: 100vh;
+    background-color: var(--color-secondary-text);
+    z-index: 1000;
+    position: absolute;
+    list-style: none;
     display: none;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    right: -20px;
+    top: -20px;
+    gap: 20px;
+
 }
 
 .nav__icon-container {
     display: flex;
     align-items: center;
+}
+
+.nav__icon-button{
+    position: absolute;
+    z-index: 1000;
 }
 
 .nav__icon-img {
