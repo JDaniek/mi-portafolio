@@ -408,3 +408,23 @@ p {
     margin: 8px 0;
     text-align: center;
 }
+
+.proyects{
+    background-color: var(--color-secondary);
+    padding: 20px;
+}
+
+.proyect__container{
+    text-align: center;
+    color: var(--color-text);
+}
+
+.proyect__container--title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: var(--color-text);
+    margin: 20px 0;
+}
