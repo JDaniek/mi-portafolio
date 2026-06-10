@@ -331,20 +331,20 @@
       </section>
 
       <section class="contact" id="contact">
+        <div class="contact__container--title">
+          <h2 class="contact__title">Contacto</h2>
+          <div class="text__decoration"></div>
+        </div>
+        
+        <div class="contact__text">
+          <h3 class="contact__subtitle">Trabajemos Juntos</h3>
+          <p class="contact__paragraph">
+            Estoy abierto a colaborar en proyectos como becario o pasante, aun
+            soy un aprendiz con mucho entusiasmo de aportar mi granito de
+            arena.
+          </p>
+        </div>
         <div class="contact__container">
-          <div class="contact__container--title">
-            <h2 class="contact__title">Contacto</h2>
-            <div class="text__decoration"></div>
-          </div>
-
-          <div class="contact__text">
-            <h3 class="contact__subtitle">Trabajemos Juntos</h3>
-            <p class="contact__paragraph">
-              Estoy abierto a colaborar en proyectos como becario o pasante, aun
-              soy un aprendiz con mucho entusiasmo de aportar mi granito de
-              arena.
-            </p>
-          </div>
           <div class="contact__info">
             <div class="contact__badges">
               <div class="badge__image">
@@ -360,15 +360,15 @@
           <form  action="https://formsubmit.co/danielorantes270@gmail.com" method="POST" class="contact__form">
             <div class="form__info">
               <label for="name">Nombre:</label>
-              <input name="name" type="text" placeholder="Su nombre">
+              <input name="name" type="text" placeholder="Su nombre" class="form__input">
 
               <label for="e-mail">E-mail</label>
-              <input  name="e-mail" type="text" placeholder="ejemplo@correo.com">
+              <input  name="e-mail" type="text" placeholder="ejemplo@correo.com" class="form__input">
 
               <label for="message">Mensaje</label>
-              <textarea name="message" id="message" placeholder="Escriba su Mensaje"></textarea>
-              <button type="button">
-                <img src="./assets/icons/send.svg" alt="">
+              <textarea name="message" id="message" placeholder="Escriba su Mensaje" class="form__input form__input--text"></textarea>
+              <button type="button" class="form__button">
+                <img src="./assets/icons/send.svg" alt="send icon" class="button__img">
                 Enviar Mensaje
               </button>
             </div>
