@@ -443,17 +443,17 @@ p {
 }
 
 .contact__container {
-    margin: 25px 0;
     color: var(--color-text);
 }
 
 .contact__container--title {
+    margin-top: 40px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 5px;
-    margin: 20px 0;
     color: var(--color-text);
 }
 
@@ -491,4 +491,48 @@ p {
     height: 45px;
     width: 45px;
     border-radius: 10px;
+}
+
+.contact__form{
+    padding: 20px;
+    border: 1px solid var(--color-contrast);
+    border-radius: 1rem;
+    margin: 30px 0;
+}
+
+.form__info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form__input{
+    font-family: 'Poppins', system-ui ;
+    outline: none;
+    border: 1px solid var(--color-contrast);
+    border-radius: 0.3rem;
+    background-color: var(--color-secondary);
+    height: 2rem;
+    padding: 0.5rem;
+    color: var(--color-text);
+    width: 100%;
+}
+
+.form__input--text{
+    resize: none;
+    height: 5rem;
+    
+}
+
+.form__button{
+    margin-top: 10px;
+    background-color: var(--color-text);
+    padding: 8px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
 }
