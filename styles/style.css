@@ -69,10 +69,6 @@ p {
     margin: 0 10px;
 }
 
-.nav__menu--active {
-    text-decoration: none;
-}
-
 .nav__list {
     padding: 30px;
     height: 100vh;
@@ -89,6 +85,11 @@ p {
     top: -20px;
     gap: 20px;
 
+}
+
+.nav__list--active {
+    display: flex;
+    text-decoration: none;
 }
 
 .nav__icon-container {
