@@ -70,9 +70,9 @@ p {
 }
 
 .nav__list {
+    width: 50%;
     padding: 30px;
     height: 100vh;
-    background-color: var(--color-secondary-text);
     z-index: 1000;
     position: absolute;
     list-style: none;
@@ -89,7 +89,21 @@ p {
 
 .nav__list--active {
     display: flex;
+    
     text-decoration: none;
+    background-color: var(--color-secondary);
+}
+
+.nav__item {
+    width: 100%;
+    text-align: center;
+}
+
+.nav__link {
+    padding: 10px;
+    display: inline-block;
+    color: var(--color-text);
+    margin: 0.5rem 0;
 }
 
 .nav__icon-container {
@@ -601,4 +615,12 @@ p {
 .header__links:hover {
     transform: scale(1.2);
     transition: transform 0.2s ease;
+}
+
+.nav__link:hover {
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    padding: 10px;
+    background-color: var(--color-text);
+    color: var(--color-secondary);
 }
