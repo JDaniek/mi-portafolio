@@ -45,7 +45,7 @@ section {
     position: fixed;
     z-index: 100;
     top: 0;
-    padding: 20px;
+    padding: 20px 25px;
     border-bottom: 1px solid var(--color-contrast);
 }
 
@@ -632,6 +632,40 @@ section {
     color: var(--color-secondary);
 }
 
-.footer__link:hover{
+.footer__link:hover {
     color: var(--color-text);
+}
+
+@media (min-width:1024px) {
+
+    .nav{
+        padding: 10px 25px;
+    }
+    .nav__container {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav__list {
+        background-color: transparent;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 1px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .nav__icon-container {
+        display: none;
+    }
+
+    .nav__link{
+        width: 115px;
+    }
 }
