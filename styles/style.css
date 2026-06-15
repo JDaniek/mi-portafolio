@@ -463,7 +463,9 @@ section {
     padding: 10px;
 }
 
-.contact {}
+.contact {
+    padding-bottom: 20px;
+}
 
 .contact__container {
     color: var(--color-text);
@@ -522,7 +524,6 @@ section {
     padding: 20px;
     border: 1px solid var(--color-contrast);
     border-radius: 1rem;
-    margin: 30px 0;
 }
 
 .form__info {
