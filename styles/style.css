@@ -631,3 +631,7 @@ section {
     background-color: var(--color-text);
     color: var(--color-secondary);
 }
+
+.footer__link:hover{
+    color: var(--color-text);
+}
