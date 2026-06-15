@@ -31,6 +31,10 @@ p {
     line-height: 1.5;
 }
 
+section {
+    padding-top: 65px;
+}
+
 .header {
     width: 100%;
 }
@@ -89,7 +93,7 @@ p {
 
 .nav__list--active {
     display: flex;
-    
+
     text-decoration: none;
     background-color: var(--color-secondary);
 }
@@ -426,12 +430,14 @@ p {
 
 .proyects {
     background-color: var(--color-secondary);
-    padding: 20px;
 }
 
 .proyect__container {
     text-align: center;
     color: var(--color-text);
+    padding: 0 20px;
+    padding-bottom: 20px;
+
 }
 
 .proyect__container--title {
@@ -457,12 +463,12 @@ p {
     padding: 10px;
 }
 
-.contact {
-    padding: 0 20px;
-}
+.contact {}
 
 .contact__container {
     color: var(--color-text);
+    padding: 0 20px;
+
 }
 
 .contact__container--title {
