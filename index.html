@@ -1,11 +1,442 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio de Jorge Daniel Orantes Estrada, estudiante de Ingeniería en Desarrollo de Software."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Jorge Orantes | Portafolio</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="nav__container">
+          <div class="nav__title">
+            <a class="nav__title-link" href="/">Jorge Orantes</a>
+          </div>
+          <div class="nav__menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#inicio" class="nav__link">Inicio</a>
+              </li>
+              <li class="nav__item">
+                <a href="#about-me" class="nav__link">Sobre Mí</a>
+              </li>
+              <li class="nav__item">
+                <a href="#skills" class="nav__link">Habilidades</a>
+              </li>
+              <li class="nav__item">
+                <a href="#proyects" class="nav__link">Proyectos</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contact" class="nav__link">Contacto</a>
+              </li>
+            </ul>
+            <div class="nav__icon-container">
+              <button
+                class="nav__icon-button"
+                aria-label="Abrir menú de navegación"
+              >
+                <img
+                  class="nav__icon-img"
+                  src="./assets/icons/menu-icon.svg"
+                  alt="Icono de menú desplegable"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header__container" id="inicio">
+        <div class="header__presentation">
+          <p class="presentation__greeting">Hola, soy</p>
+          <h1 class="presentation__title">Jorge Daniel Orantes Estrada</h1>
+        </div>
+        <div class="header__container-photo">
+          <img
+            src="./assets/images/personalphoto.png"
+            class="header__img"
+            alt="Imagen de presentación"
+          />
+        </div>
+        <div class="header__text">
+          <h2 class="header__title">
+            Estudiante de Ingeniería en Desarrollo de Software
+          </h2>
+
+          <p class="header__description">
+            Apasionado por el desarrollo de software y el aprendizaje continuo.
+            Enfocado en crear soluciones innovadoras y eficientes a través de la
+            tecnología.
+          </p>
+        </div>
+
+        <div class="header__buttons-container">
+          <a
+            href="#contact__form"
+            class="header__button header__button--primary"
+            ><img
+              src="./assets/icons/mail-black.svg"
+              class="button__icon"
+              alt="Mail icon"
+            />Contacto</a
+          >
+          <a href="#proyects" class="header__button header__button--secondary"
+            >Mis Proyectos</a
+          >
+        </div>
+
+        <div class="header__links-container">
+          <a
+            href="https://github.com/JDaniek"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="header__links"
+            ><img src="./assets/icons/github.svg" alt="Github icon"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/jorge-daniel-orantes-estrada"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="header__links"
+            ><img src="./assets/icons/linkedin.svg" alt="Linkedin icon"
+          /></a>
+          <a href="mailto:danielorantes270@gmail.com" class="header__links"
+            ><img src="./assets/icons/mail.svg" alt="Mail icon"
+          /></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="about" id="about-me">
+        <div class="about__container">
+          <div class="about__title-container">
+            <h2 class="about__title">Sobre Mí</h2>
+            <div class="text__decoration"></div>
+          </div>
+
+          <div class="about__description">
+            <p class="about__text">
+              Soy estudiante de Ingeniería en Sistemas con una fuerte pasión por
+              el desarrollo de software y la resolución de problemas mediante la
+              tecnología. A lo largo de mi formación académica, he desarrollado
+              proyectos que me han permitido aplicar conocimientos teóricos en
+              situaciones prácticas.
+            </p>
+
+            <p class="about__text">
+              Me motiva aprender nuevas tecnologías y colaborar en proyectos
+              desafiantes que generen un impacto positivo. Estoy buscando
+              oportunidades para crecer profesionalmente y contribuir con mis
+              habilidades en un entorno dinámico.
+            </p>
+          </div>
+
+          <div class="about__data">
+            <div class="about__data-education">
+              <h3 class="about__education-title">Formación:</h3>
+
+              <div class="about__formation">
+                <div class="about__formation-container">
+                  <p class="about__formation-text">
+                    UP Chiapas
+                    <span class="about__formation-date"> 2024 – 2025</span
+                    >Ingeniería en Tecnologías de la Información e Innovación
+                    Digital
+                  </p>
+                </div>
+                <div class="about__formation-container">
+                  <p class="about__formation-text">
+                    UNACH<span class="about__formation-date">
+                      2026 – Presente</span
+                    >
+                    Ingeniería en Desarrollo de Software
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="about__data-personal-info">
+              <h3 class="about__data-personal-info-title">
+                Información Personal:
+              </h3>
+              <div class="about__data-info-container">
+                <div class="about__personal-info-item">
+                  <h4 class="about__personal-info-label">Ubicación:</h4>
+                  <p class="about__personal-info-value">
+                    Tuxtla Gutiérrez, Chiapas
+                  </p>
+                </div>
+
+                <div class="about__personal-info-item">
+                  <h4 class="about__personal-info-label">Idiomas:</h4>
+                  <p class="about__personal-info-value">Español (Nativo)</p>
+                  <p class="about__personal-info-value">Inglés (Intermedio)</p>
+                </div>
+              </div>
+              <div class="about__cards-container">
+                <div class="card__container">
+                  <div class="card__icon">
+                    <img src="./assets/icons/knownlendge.svg" alt="" />
+                  </div>
+                  <h4 class="card__title">Aprendizaje Continuo</h4>
+                  <p class="card__text">
+                    Comprometido con mantenerme actualizado en las últimas
+                    tecnologías y mejores prácticas del desarrollo de software.
+                  </p>
+                </div>
+
+                <div class="card__container">
+                  <div class="card__icon">
+                    <img src="./assets/icons/poyect.svg" alt="" />
+                  </div>
+                  <h4 class="card__title">Proyectos Académicos</h4>
+                  <p class="card__text">
+                    Experiencia en desarrollo de proyectos universitarios
+                    aplicando metodologías ágiles y buenas prácticas.
+                  </p>
+                </div>
+
+                <div class="card__container">
+                  <div class="card__icon">
+                    <img src="./assets/icons/Create.svg" alt="" />
+                  </div>
+                  <h4 class="card__title">Pensamiento Creativo</h4>
+                  <p class="card__text">
+                    Enfoque en encontrar soluciones innovadoras a problemas
+                    complejos mediante el análisis y la creatividad.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="skills__container">
+          <div class="skills__title-container">
+            <h2 class="skills__title">Habilidades</h2>
+            <div class="text__decoration"></div>
+          </div>
+
+          <div class="skills__cards-container">
+            <div class="card__container">
+              <h3 class="card__title">Desarrollo Web</h3>
+              <div class="card__tags-container">
+                <div class="card__tag">
+                  <img
+                    src="./assets/images/html.svg"
+                    alt="html logo"
+                    class="tag__img"
+                  />
+                  <span>HTML 5</span>
+                </div>
+                <div class="card__tag">
+                  <img
+                    src="./assets/images/css.svg"
+                    alt="css logo"
+                    class="tag__img"
+                  />
+                  <span>CSS</span>
+                </div>
+                <div class="card__tag">
+                  <img
+                    src="./assets/images/javascript.svg"
+                    alt="javascript logo"
+                    class="tag__img"
+                  />
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+            <div class="card__container">
+              <h3 class="card__title">Herramientas</h3>
+              <div class="card__tags-container">
+                <div class="card__tag">
+                  <img
+                    src="./assets/images/github.svg"
+                    alt="github logo"
+                    class="tag__img"
+                  />
+                  <span>Github</span>
+                </div>
+
+                <div class="card__tag">
+                  <img
+                    src="./assets/images/amazon-web-services.svg"
+                    alt="AWS logo"
+                    class="tag__img"
+                  />
+                  <span>Amazon Web Services</span>
+                </div>
+
+                <div class="card__tag">
+                  <img
+                    src="./assets/images/ubuntu.svg"
+                    alt="ubuntu logo"
+                    class="tag__img"
+                  />
+                  <span>Ubuntu</span>
+                </div>
+
+                <div class="card__tag">
+                  <img
+                    src="./assets/images/jira.svg"
+                    alt="jira logo"
+                    class="tag__img"
+                  />
+                  <span>Jira</span>
+                </div>
+
+                <div class="card__tag">
+                  <img
+                    src="./assets/images/figma.svg"
+                    alt="figma logo"
+                    class="tag__img"
+                  />
+                  <span>Figma</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="proyects" id="proyects">
+        <div class="proyect__container">
+          <div class="proyect__container--title">
+            <h2>Proyectos</h2>
+            <div class="text__decoration"></div>
+          </div>
+          <h3 class="proyect__subtitle">En busca de proyectos reales</h3>
+
+          <div class="proyects__cards">
+            <h4 class="proyect__topic">Actualmente aprendiendo:</h4>
+            <div class="proyect__card">
+              <ul class="card__list">
+                <li class="card__item">Disño Responive Profesional</li>
+                <li class="card__item">UX/UI</li>
+                <li class="card__item">Manipulación del DOM</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact__container--title">
+          <h2 class="contact__title">Contacto</h2>
+          <div class="text__decoration"></div>
+        </div>
+        <div class="contact__container">
+          <div class="contact__info">
+
+            <div class="contact__text">
+              <h3 class="contact__subtitle">Trabajemos Juntos</h3>
+              <p class="contact__paragraph">
+                Estoy abierto a colaborar en proyectos como becario o pasante,
+                aun soy un aprendiz con mucho entusiasmo de aportar mi granito
+                de arena.
+              </p>
+            </div>
+            <div class="contact__badges">
+              <div class="badge__image">
+                <img src="./assets/icons/mail.svg" alt="" />
+              </div>
+              <div class="badge__content">
+                <p class="badge__head">Email</p>
+                <p class="badge__text">danielorantes270@gmail.com</p>
+              </div>
+            </div>
+          </div>
+
+          <form
+            action="https://formsubmit.co/danielorantes270@gmail.com"
+            method="POST"
+            class="contact__form"
+            id="contact__form"
+          >
+            <div class="form__info">
+              <label for="name">Nombre:</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Su nombre"
+                class="form__input"
+                autocomplete="name"
+              />
+
+              <label for="e-mail">E-mail</label>
+              <input
+                id="e-mail"
+                name="e-mail"
+                type="text"
+                placeholder="ejemplo@correo.com"
+                class="form__input"
+                autocomplete="e-mail"
+              />
+
+              <label for="message">Mensaje</label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Escriba su Mensaje"
+                class="form__input form__input--text"
+              ></textarea>
+              <button type="button" class="form__button">
+                <img
+                  src="./assets/icons/send.svg"
+                  alt="send icon"
+                  class="button__img"
+                />
+                Enviar Mensaje
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <nav class="footer__nav">
+        <h4 class="footer__nav--title">Enlaces Rápidos</h4>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link" href="#inicio">Inicio</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#about-me">Sobre Mí</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#skills">Habilidades</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#proyects">Proyectos</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__text">
+        <h4 class="footer__title">
+          © 2026 Jorge Orantes. Hecho con HTML, CSS y JS
+        </h4>
+        <p class="footer__paragraph">Todos los derechos reservados.</p>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
 </html>
