@@ -142,7 +142,6 @@ section {
 }
 
 .presentation__greeting {
-    margin-top: 30px;
     color: var(--color-secondary-text);
 }
 
