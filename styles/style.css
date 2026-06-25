@@ -451,18 +451,26 @@ section {
     color: var(--color-text);
 }
 
-.proyects__cards {
-    margin: 20px 0;
-    text-align: start;
+.proyects__cards-container {
+    display: flex;
 }
 
-.proyect__card {
-    margin: 25px 0;
+.card__body {
+    border: 1px solid var(--color-contrast);
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    margin: 10px auto;
+    max-width: 550px;
+    padding: 2rem;
+    text-align: left;
 }
 
-.card__list {
-    padding: 10px;
+.card__tags-container {
+    display: flex;
+    justify-content: start;
+    gap: 16px;
 }
+
 
 .contact {
     padding-bottom: 20px;
@@ -639,9 +647,10 @@ section {
 
 @media (min-width:1024px) {
 
-    .nav{
+    .nav {
         padding: 10px 25px;
     }
+
     .nav__container {
         display: flex;
         position: static;
@@ -666,25 +675,25 @@ section {
         display: none;
     }
 
-    .nav__link{
+    .nav__link {
         width: 115px;
     }
 
-    .header__container{
+    .header__container {
         gap: 25px;
         padding: 20px 30px;
     }
 
-    .header__container-photo{
+    .header__container-photo {
         height: 170px;
         width: 170px;
     }
 
-    .about__data{
+    .about__data {
         margin: 30px 0;
     }
 
-    .about__cards-container{
+    .about__cards-container {
         margin-top: 30px;
         display: flex;
         flex-direction: row;
@@ -692,7 +701,7 @@ section {
         justify-content: space-between;
     }
 
-    .contact__container{
+    .contact__container {
         margin-top: 60px;
         display: flex;
         flex-direction: row;
@@ -700,15 +709,15 @@ section {
         padding: 0 5%;
     }
 
-    .contact__info{
+    .contact__info {
         max-width: 50%;
     }
 
-    .contact__form{
+    .contact__form {
         width: 50%;
     }
 
-    .footer__title{
+    .footer__title {
         margin-top: 30px;
     }
 }
