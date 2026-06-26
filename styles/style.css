@@ -488,7 +488,8 @@ section {
 }
 
 .card__links-container{
-    width: 70%;
+    width: 80%;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
 }
